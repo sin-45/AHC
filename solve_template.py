@@ -24,3 +24,7 @@ class Solve:
 if "__main__" == __name__:
     solve = Solve()
     solve.solve()
+    s_list = [list(range(10)) for i in range(10)]
+    temp = [p[:] for p in s_list]
+    for i in temp:
+        print(i)
