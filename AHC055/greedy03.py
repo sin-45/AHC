@@ -1,8 +1,3 @@
-import sys
-import heapq
-
-sys.setrecursionlimit(10**6)
-
 class Solve:
     def __init__(self, N, H, C, A):
         self.n = N
